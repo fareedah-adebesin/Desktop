@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICE</title>
+    <style>
+
+      
+        .NAV {
+            display: flex;
+            gap: 500px;
+        }
+
+        nav {
+            padding: 10px;
+            background-color: black;
+            border: 1px solid whitesmoke;
+            border-radius: 8px;
+        }
+
+        nav a {
+            color: whitesmoke;
+            padding: 15px;
+        }
+
+        .ham {
+            width: 35px;
+
+        }
+
+        .container {
+            display: flex;
+            gap: 600px;
+            margin-left: 15px;
+            padding: 5px;
+            background-color: black;
+            border: 2px solid whitesmoke;
+            border-radius: 10px;
+        }
+
+        .color {
+            color: whitesmoke;
+            margin-left: 10px;
+
+        }
+
+        .olor {
+            color: whitesmoke;
+        }
+
+        .ontainer {
+            display: flex;
+            gap: 300px;
+            margin-top: 25px;
+            margin-left: 35px;
+        }
+
+        h3 {
+            text-align: center;
+        }
+           
+         
+        @media only screen and (max-width:500px) {
+            body{
+                background-color: red;
+            }
+            
+        }
+
+        @media only screen and (max-width:768px) {
+            .NAV {
+                display: none;
+            }
+        }
+
+        h3{
+            font-size: 40px;
+        }
+        @media screen and (max-width:768px) {
+            h3{
+                font-size: 25px;
+            }
+        }
+
+        .ham {
+            display: none;
+        }
+
+        @media screen and (max-width: 600px) {
+            nav {
+                display: none;
+            }
+        }
+
+        .ham {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="NAV">
+        <nav>
+            <a href="about">ABOUT</a>
+            <a href="contact">CONTACT US</a>
+            <a href="support">SUPPORT</a>
+        </nav>
+
+        <div class="ham">
+            <div>
+                <hr>
+            </div>
+            <div>
+                <hr>
+            </div>
+            <div>
+                <hr>
+            </div>
+        </div>
+
+    </div>
+    <h3><b>THIS IS A DRILL FOR HTML AND CSS</b></h3>
+    <h2>Here you can find little details about HTML and CSS:</h2><br>
+    <div class="container">
+        <div class="color">HTML</div>
+        <div class="olor">CSS</div>
+    </div>
+
+    <div class="ontainer">
+        <div>HTML means HyperText Markup Language.<br>It is used for simple texts on a website<br>without any style or
+            interactivity.<br>It has several attributes and tags, some of<br>its tags are empty, while some are<br>full.
+            Empty means they don't need a<br>closing tag. Full means, they need a<br>closing tag.</div>
+        <div>
+            Let's move to CSS which Cascading StyleSheet.<br>Unlike HTML which is just simple<br>texts, CSS has to do
+            with the<br>styling of the webpage. It involves<br>making the website visually appealing<br>instead of some
+            texts alone.
+        </div>
+    </div>
+</body>
+
+</html>
